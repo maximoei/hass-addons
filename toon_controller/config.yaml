@@ -1,0 +1,19 @@
+name: "Toon Controller"
+description: "Controller web app for Toon"
+version: "1.0.0"
+slug: "toon_controller"
+init: false
+arch: 
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+ports:
+  80/tcp: 8000
+options:
+  use_repository: false
+  repository: ""
+schema:
+  use_repository: bool
+  repository: str
